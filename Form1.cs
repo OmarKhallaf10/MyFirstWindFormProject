@@ -17,5 +17,64 @@ namespace MyFirstWindFormProject
             InitializeComponent();
            
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBox2.Text = textBox1.Text;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = textBox1.Text;
+           
+
+        }
+
+        private void Mouse_Enter(object sender, EventArgs e)
+        {
+            textBox2.Text = textBox1.Text;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void FirstOfMouseTouch(object sender, EventArgs e)
+        {
+            textBox1.Enabled = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Enabled = true;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox1.Hide();
+            
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox1.Visible = true;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            textBox1.BackColor = Color.Red;
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
